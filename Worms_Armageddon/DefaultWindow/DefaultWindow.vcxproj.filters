@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{9519dae6-4498-4c11-86a3-4b3cebd0e891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr">
+      <UniqueIdentifier>{462d3b98-828b-4e75-a438-89453bd13ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj">
+      <UniqueIdentifier>{69618591-c20d-40c5-9862-fd75ed62f9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\00. TimeMgr">
+      <UniqueIdentifier>{943872f9-77c7-4372-9dcf-c3eaceeb9a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\01. SceneMgr">
+      <UniqueIdentifier>{6a5d26fb-b962-494e-ac60-cba46e73d6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\02. EventMgr">
+      <UniqueIdentifier>{ed0d544f-e9fa-40cf-9a35-b50f81f9a066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\03. CollisionMgr">
+      <UniqueIdentifier>{c9db4925-8602-4a48-a428-9fa6b77b9886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\04. KeyMgr">
+      <UniqueIdentifier>{43e44761-83b4-4fe4-b0e8-5e895ee95603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\08. BmpMgr">
+      <UniqueIdentifier>{3a4c3760-0af3-45f3-86e1-7c6685794c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\08. BmpMgr\00. BmpMgr">
+      <UniqueIdentifier>{b88cd335-bc4b-4459-9528-b1e9d650ec1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\08. BmpMgr\01. MyBmp">
+      <UniqueIdentifier>{7dd0383c-6c92-4a40-9ffb-bef561ceaa32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MyVector">
+      <UniqueIdentifier>{65cfff83-c19b-42a4-bcbe-ffb6953556fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Mover">
+      <UniqueIdentifier>{4a1694ea-d9b3-4f38-8fd4-e480b625829c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene">
+      <UniqueIdentifier>{fc9d0145-c65e-46c2-8ca1-18c3f13f27f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene\00. Scene">
+      <UniqueIdentifier>{b9c69680-503d-4926-afc2-86c6386e0f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene\01. Scene_Game">
+      <UniqueIdentifier>{3f4d6221-e07e-4b94-8ba6-5a63ac0fb678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\09. ObjMgr">
+      <UniqueIdentifier>{d53a6149-164f-4e69-ab3b-e5f52a252c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\00. Obj">
+      <UniqueIdentifier>{8fcda8d4-2702-404c-bcea-d2c46830a229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. CObj_Worm">
+      <UniqueIdentifier>{b2757425-bbdb-4803-86f3-df005c1e01b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02. CObj_Map">
+      <UniqueIdentifier>{bcc5b726-0747-4ee0-9743-604e2a628ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator">
+      <UniqueIdentifier>{bccae191-3efb-4c63-a3ed-fcbf2df3e78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\00. Animator">
+      <UniqueIdentifier>{b36fd09b-9240-47ad-887d-d9a90892dfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite">
+      <UniqueIdentifier>{078275da-c99c-467f-a7cb-b32804242da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\00. Sprite">
+      <UniqueIdentifier>{20bf6b8e-1e72-48d0-80a2-030a751e044e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\01. Sprite_Worm_Idle">
+      <UniqueIdentifier>{7dcfbc15-87c3-4525-94e2-9a5baf40119e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\00. Animator\01. Animator_Worm">
+      <UniqueIdentifier>{e3e28cc2-408c-445a-9370-0af108adf07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\00. Animator\00. Animator">
+      <UniqueIdentifier>{1eadbea9-1efa-4e0a-ba9a-3ddd79595ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\02. Sprite_Worm_Walk">
+      <UniqueIdentifier>{4a85b517-a2c8-414a-ac28-d5eecc557c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03. CObj_Cloud">
+      <UniqueIdentifier>{4124ca74-9b05-43d6-9d9d-b637e27a1759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\03. Sprite_Cloud">
+      <UniqueIdentifier>{b1f40d54-68df-4eff-9e50-7231192b13fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\04. Sprite_BackParticle">
+      <UniqueIdentifier>{b2101e94-5e1a-4e27-b9d2-1a628e7fc86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\10. GameMgr">
+      <UniqueIdentifier>{412028f1-1d1f-4fe5-b47c-e8a24b969a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\05. UI">
+      <UniqueIdentifier>{6a3abc9d-0da9-430d-b0f9-a4087ccf40d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\05. UI\00. WINDUI">
+      <UniqueIdentifier>{72c6ed15-f969-4586-a3c4-dd837a1da08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon">
+      <UniqueIdentifier>{4bf73c16-e0f3-48fc-98e6-04580efcae98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\00. Weapon">
+      <UniqueIdentifier>{45aca35b-7df9-4aae-b0f1-98777775da2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\01. Weapon_Bazooka">
+      <UniqueIdentifier>{1d01c180-62f4-44e4-9d4e-b4b5bc3302a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\06. Sprite_DrawWeapon">
+      <UniqueIdentifier>{9926e49a-ca1f-4c40-8ce9-db528f5553fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image">
+      <UniqueIdentifier>{3919bb13-9f3b-45d7-bb6f-b096a042d3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\00. MyImage">
+      <UniqueIdentifier>{5011b2a0-6bfb-4469-b7a4-4b3e26610710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\01. Image_WeaponIdle">
+      <UniqueIdentifier>{c2f5f0d9-c27f-457b-ab15-dbb228008be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\02. Image_WeaponAim">
+      <UniqueIdentifier>{047c5346-a671-4233-acd1-36d5b0d598ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile">
+      <UniqueIdentifier>{e8b83cda-992f-4531-b535-f7ad0c56ffde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\00. Obj_Projectile">
+      <UniqueIdentifier>{0ac7228f-8829-4b96-950f-0261e494764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\01. Obj_Projectile_Bazooka">
+      <UniqueIdentifier>{d5f5b0b6-7d98-4b01-a9d2-57c2a7c9572c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile">
+      <UniqueIdentifier>{775a7570-a24e-426c-9662-17ba168af497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\00. Image_Bazooka">
+      <UniqueIdentifier>{39a771a7-d11b-4d40-869f-7a82b6b8e6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\11. EffectMgr">
+      <UniqueIdentifier>{aec805e6-c67d-4642-b5f6-6453f049be1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects">
+      <UniqueIdentifier>{f643e490-a0c5-49c6-9a91-aff630b64640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\00. Sprite_Effect_Circle">
+      <UniqueIdentifier>{7eb7c489-c153-4d85-b31e-32c6ef093430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\01. Sprite_Effect_Ellipse">
+      <UniqueIdentifier>{ecd6baf1-be53-49c4-b343-b24e862a0011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\02. Sprite_Effect_Exhaust">
+      <UniqueIdentifier>{b2c121bb-20fc-493c-8b86-04b96415713d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\03. Sprite_Effect_Smoke">
+      <UniqueIdentifier>{fe333d4f-c604-4096-bf40-3626008ec176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\04. Sprite_Effect_Text">
+      <UniqueIdentifier>{714d8737-91b6-4a7f-a7cc-772d47241723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\04. Particle">
+      <UniqueIdentifier>{a4c1471f-5029-4465-846c-cc5830be5f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\04. Particle\00. CObj_BackParticle">
+      <UniqueIdentifier>{71a8452c-2975-4e0a-bcb7-be10def0b4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\04. Particle\01. CObj_FlameParticle">
+      <UniqueIdentifier>{55c1a659-853d-4d12-9e5b-ea31b6843b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\05. Sprite_Effect_Flame">
+      <UniqueIdentifier>{20782e98-e3cf-4a36-932f-b0d844a221e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\12. CameraMgr">
+      <UniqueIdentifier>{9ac91767-c73f-4577-85f4-c31f4d65555c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\08. Sprite_Sea">
+      <UniqueIdentifier>{117f0fb0-3564-4569-84ac-a92857dc67aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\04. Image_Worm">
+      <UniqueIdentifier>{7c7cd890-4c70-49dd-bf52-d4dcab858a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State">
+      <UniqueIdentifier>{62d03f99-fcb2-441a-afde-6731b4152a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\00. State">
+      <UniqueIdentifier>{c8b3d327-6e03-484b-b834-80b846273258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm">
+      <UniqueIdentifier>{73d9592c-d798-41b3-8c82-9eb4282f8efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\00. State_Worm">
+      <UniqueIdentifier>{fb03e9fb-5765-4d9d-8b63-f6e6fa2cc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\01. State_Worm_Idle">
+      <UniqueIdentifier>{14a80c8b-d4d4-4249-9e92-bb029ecd0682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\02. State_Worm_Walk">
+      <UniqueIdentifier>{5cebd277-230d-444f-905a-f614199aa217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\03. State_Worm_Weapon">
+      <UniqueIdentifier>{74c84ea7-9629-460e-872f-b4eccc309e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\04. State_Worm_Jump">
+      <UniqueIdentifier>{c54f8351-a055-49fb-9e7c-737994162d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\09. Sprite_Worm_Jump">
+      <UniqueIdentifier>{ad77395c-8074-4777-99db-82706455457a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\05. State_Worm_Flying">
+      <UniqueIdentifier>{5d41d156-1fa8-4b81-808a-7f804311e2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\06. State_Worm_Slide">
+      <UniqueIdentifier>{5d39274e-90d1-4ce0-8125-d5cefdfb60d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\10. Sprite_Worm_Slide">
+      <UniqueIdentifier>{27ef1494-832c-4b65-93c7-1c4e99283271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\13. UIMgr">
+      <UniqueIdentifier>{e272ed0e-3a56-47d2-90cf-17006637af1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\06. UI">
+      <UniqueIdentifier>{74bb8ee8-8c7e-435f-9db4-cf602958b895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\06. UI\00. Image_HpBox">
+      <UniqueIdentifier>{b251a7f1-e4d1-4cc0-b672-46c30c45dab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\06. UI\01. Font">
+      <UniqueIdentifier>{107b5e09-c1c9-4507-b603-88a8afd6fe1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\06. Sprite_SlideSmoke">
+      <UniqueIdentifier>{e4911ead-92ea-4794-bcc3-b475b6a61b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. Inventory">
+      <UniqueIdentifier>{07c63eff-0858-4580-b940-541fd8f9916d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\07. Sprite_MinusHp">
+      <UniqueIdentifier>{60da5dac-1974-4bf2-81e0-71579843a1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\07. State_Worm_Dead">
+      <UniqueIdentifier>{152cfa0e-e4b7-44c2-be21-f89451136572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\02. Obj_Projectile_DeadBomb">
+      <UniqueIdentifier>{5e41ba13-245c-4079-a13b-e20e151140bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\08. State_Worm_Winner">
+      <UniqueIdentifier>{2da43e64-4ee8-48f9-b6e7-c2eb675ecb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\11. Sprite_Worm_Winner">
+      <UniqueIdentifier>{0efd59aa-9416-4873-ba24-f5a0e439a8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\06. UI\02. Inventory">
+      <UniqueIdentifier>{8b3fb82a-d90e-4f7a-9bd2-d027967715b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\09. State_Worm_Swim">
+      <UniqueIdentifier>{d1208282-3951-42d7-8e4f-803a041b011a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\04. Image_Worm\01. Image_Worm_Flying">
+      <UniqueIdentifier>{81f967a8-2aac-4900-90c5-1a6332b3a65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\04. Image_Worm\00. Image_Worm">
+      <UniqueIdentifier>{ee5e63dc-d7ba-4dc6-a1cb-588f7e101943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\12. Sprite_Worm_Dead">
+      <UniqueIdentifier>{35165e1a-c914-4cb6-af2f-2ea9c7c11158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\13. Sprite_Worm_Swim">
+      <UniqueIdentifier>{532b9e82-10bd-481a-97d8-e2d4316d7936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\08. Sprite_Bubble">
+      <UniqueIdentifier>{a1d29c7c-1a98-46d8-9565-bf367f91a605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\03. Obj_Projectile_Banana">
+      <UniqueIdentifier>{2464cb8c-d3ab-43a2-8a0b-02f51a374d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\01. Image_Banana">
+      <UniqueIdentifier>{ca2bf72f-a75d-498c-b8b4-101a9061b680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\02. Weapon_Banana">
+      <UniqueIdentifier>{308446fd-03f3-45ee-b7c5-c01a76278cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\04. Obj_Projectile_Donkey">
+      <UniqueIdentifier>{050e65df-1080-489e-addc-e50b0cc4b754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\02. Image_Donkey">
+      <UniqueIdentifier>{9b66ed52-2307-4a53-a247-5065ae63f6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\03. Weapon_Donkey">
+      <UniqueIdentifier>{a7cb827c-67db-4e41-8459-3332cbf09ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\04. Weapon_Hmissile">
+      <UniqueIdentifier>{7a918e4f-0209-410d-a947-bcea5e887217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\03. Image_Hmissile">
+      <UniqueIdentifier>{b5b90164-997a-418d-a450-90d153257388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\05. Obj_Projectile_Hmissile">
+      <UniqueIdentifier>{20ebf604-f57e-43ab-ae2c-ffafba16ca89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\06. Obj_Projectile_AirMissile">
+      <UniqueIdentifier>{3761d46e-16e6-4225-a7fa-4f7fc2080895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\04. Image_AirMissile">
+      <UniqueIdentifier>{cf15746c-c6af-450e-913e-5391d71e180b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\05. Weapon_AirMissile">
+      <UniqueIdentifier>{3c983c30-b270-4da0-b265-5af787df2af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\06. Weapon_Baseball">
+      <UniqueIdentifier>{a1ab498a-dcdd-4401-9584-54afd5958667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\07. Obj_Projectile_Baseball">
+      <UniqueIdentifier>{941bceaf-a97b-46e5-b849-fb148f603d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\09. Sprite_Basehit">
+      <UniqueIdentifier>{0e243bd4-f07e-45c9-916c-3e8d2e2855a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\08. Obj_Projectile_Holy">
+      <UniqueIdentifier>{69a98a23-56b3-46b3-8d0a-30f834bdb081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\05. Image_Jet">
+      <UniqueIdentifier>{d013c48f-00c2-401a-8093-f539f750b24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\03. Image_Projectile\06. Image_Holy">
+      <UniqueIdentifier>{3a2ec107-92ea-4497-b9c4-98e400c35770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\07. Weapon_Holy">
+      <UniqueIdentifier>{a647d3da-45d8-474e-9b03-c9157325326c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\10. Sprite_Star">
+      <UniqueIdentifier>{1ebc044d-ebe8-468a-8130-e1d9dc7d2c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\07. Effects\11. Sprite_Marker">
+      <UniqueIdentifier>{a778c64b-3e3e-41c1-acd6-5c8cc21bd5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. Obj_Structure">
+      <UniqueIdentifier>{4b6a4826-0387-4300-8bf0-7cfc498083fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\02. Image\05. Image_Structure">
+      <UniqueIdentifier>{82fa5f83-d434-44ea-aa9f-b9dabccf8bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\08. Weapon_Structure">
+      <UniqueIdentifier>{62f86159-9b8a-4077-b2e3-8a227a717bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. State\01. State_Worm\10. State_Worm_NotTurn">
+      <UniqueIdentifier>{8ff8a13e-a277-43c0-87d3-af940119d111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\14. Sprite_Sheep">
+      <UniqueIdentifier>{50f43421-e009-4aeb-ae65-df753cfeaa5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\09. Obj_Projectile_Sheep">
+      <UniqueIdentifier>{68ee0c01-7137-4c7e-8a77-42254c130423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\09. Weapon_Sheep">
+      <UniqueIdentifier>{451f8138-a073-41f0-876a-c08d0b2a21f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Mgr\14. SoundMgr">
+      <UniqueIdentifier>{33e7f64e-6caa-4763-b9c2-dfe8e413346a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene\02. Scene_Intro">
+      <UniqueIdentifier>{3a1f2d1e-2b69-47fd-b380-a49aebf0918a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Scene\03. Scene_MainMenu">
+      <UniqueIdentifier>{f64eba40-b1e8-4a99-ab75-d185f4546455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button">
+      <UniqueIdentifier>{d44ef1fa-bae4-474b-be7b-f9ddde02d079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button\00. MyButton">
+      <UniqueIdentifier>{9db95912-78e9-4952-af13-b980b5e1f219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button\01. Button_Single">
+      <UniqueIdentifier>{2a8c726d-14f7-4321-a9e2-2ce31eeeddb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button\02. Button_Multi">
+      <UniqueIdentifier>{b9b80530-94ca-4551-8633-2318fea0286d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button\03. Button_Net">
+      <UniqueIdentifier>{e0159bad-4d69-429e-a9ae-da820288aefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button\04. Button_Options">
+      <UniqueIdentifier>{91d4a816-778d-4149-9bd5-55e7209d1c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Button\05. Button_Quit">
+      <UniqueIdentifier>{1f35da33-d668-41f2-af52-107dd95d650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. CObj_Projectile\10. Obj_Projectile_Meteor">
+      <UniqueIdentifier>{7538ad18-559c-4edf-a4e2-18e47b80aacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\10. Weapon_Meteor">
+      <UniqueIdentifier>{0b7a8039-36bf-4b2d-ba8c-55dbac610886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\15. Sprite_Meteor">
+      <UniqueIdentifier>{7edb52ad-36b5-4b04-ac96-707de657aaf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Weapon\11. Weapon_Teleport">
+      <UniqueIdentifier>{07da8715-fd43-4830-8f78-309fe7e9eae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\16. Sprite_Teleport">
+      <UniqueIdentifier>{57070cb4-5389-4c34-81f6-ba142e0a261b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Animator\01. Sprite\17. Sprite_TeleWork">
+      <UniqueIdentifier>{78f38b65-434a-4eac-a2ad-ad5e024c2048}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>01. Mgr\08. BmpMgr\00. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>01. Mgr\08. BmpMgr\01. MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector2.h">
+      <Filter>03. MyVector</Filter>
+    </ClInclude>
+    <ClInclude Include="Mover.h">
+      <Filter>04. Mover</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>01. Mgr\00. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>01. Mgr\01. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>05. Scene\00. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>01. Mgr\09. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02. Obj\00. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>05. Scene\01. Scene_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Worm.h">
+      <Filter>02. Obj\01. CObj_Worm</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator_Worm.h">
+      <Filter>06. Animator\00. Animator\01. Animator_Worm</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>06. Animator\01. Sprite\00. Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Idle.h">
+      <Filter>06. Animator\01. Sprite\01. Sprite_Worm_Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>06. Animator\00. Animator\00. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>01. Mgr\04. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Walk.h">
+      <Filter>06. Animator\01. Sprite\02. Sprite_Worm_Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Map.h">
+      <Filter>02. Obj\02. CObj_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>01. Mgr\03. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Cloud.h">
+      <Filter>02. Obj\03. CObj_Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Cloud.h">
+      <Filter>06. Animator\01. Sprite\03. Sprite_Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_BackPraticle.h">
+      <Filter>06. Animator\01. Sprite\04. Sprite_BackParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>01. Mgr\10. GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_WindUI.h">
+      <Filter>06. Animator\01. Sprite\05. UI\00. WINDUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>07. Weapon\00. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Bazooka.h">
+      <Filter>07. Weapon\01. Weapon_Bazooka</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_DrawWeapon.h">
+      <Filter>06. Animator\01. Sprite\06. Sprite_DrawWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImage.h">
+      <Filter>06. Animator\02. Image\00. MyImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_WeponIdle.h">
+      <Filter>06. Animator\02. Image\01. Image_WeaponIdle</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_WeaponAim.h">
+      <Filter>06. Animator\02. Image\02. Image_WeaponAim</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile.h">
+      <Filter>02. Obj\05. CObj_Projectile\00. Obj_Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Bazooka.h">
+      <Filter>02. Obj\05. CObj_Projectile\01. Obj_Projectile_Bazooka</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Bazooka.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\00. Image_Bazooka</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>01. Mgr\11. EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Effect_Circle.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\00. Sprite_Effect_Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Effect_Ellipse.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\01. Sprite_Effect_Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Effect_Exhaust.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\02. Sprite_Effect_Exhaust</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Effect_Smoke.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\03. Sprite_Effect_Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Effect_Text.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\04. Sprite_Effect_Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_BackParticle.h">
+      <Filter>02. Obj\04. Particle\00. CObj_BackParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_FlameParticle.h">
+      <Filter>02. Obj\04. Particle\01. CObj_FlameParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Effect_Flame.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\05. Sprite_Effect_Flame</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMgr.h">
+      <Filter>01. Mgr\12. CameraMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Sea.h">
+      <Filter>06. Animator\01. Sprite\08. Sprite_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>08. State\00. State</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm.h">
+      <Filter>08. State\01. State_Worm\00. State_Worm</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Idle.h">
+      <Filter>08. State\01. State_Worm\01. State_Worm_Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Walk.h">
+      <Filter>08. State\01. State_Worm\02. State_Worm_Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Weapon.h">
+      <Filter>08. State\01. State_Worm\03. State_Worm_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Jump.h">
+      <Filter>08. State\01. State_Worm\04. State_Worm_Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Jump.h">
+      <Filter>06. Animator\01. Sprite\09. Sprite_Worm_Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Flying.h">
+      <Filter>08. State\01. State_Worm\05. State_Worm_Flying</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Slide.h">
+      <Filter>08. State\01. State_Worm\06. State_Worm_Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Slide.h">
+      <Filter>06. Animator\01. Sprite\10. Sprite_Worm_Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Worm_Flying.h">
+      <Filter>06. Animator\02. Image\04. Image_Worm\01. Image_Worm_Flying</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>01. Mgr\13. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_HpBox.h">
+      <Filter>06. Animator\02. Image\06. UI\00. Image_HpBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Font.h">
+      <Filter>06. Animator\02. Image\06. UI\01. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_SlideSmoke.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\06. Sprite_SlideSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>09. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_MinusHp.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\07. Sprite_MinusHp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Dead.h">
+      <Filter>06. Animator\01. Sprite\12. Sprite_Worm_Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Dead.h">
+      <Filter>08. State\01. State_Worm\07. State_Worm_Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_DeadBomb.h">
+      <Filter>02. Obj\05. CObj_Projectile\02. Obj_Projectile_DeadBomb</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Winner.h">
+      <Filter>08. State\01. State_Worm\08. State_Worm_Winner</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Winner.h">
+      <Filter>06. Animator\01. Sprite\11. Sprite_Worm_Winner</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Inventory.h">
+      <Filter>06. Animator\02. Image\06. UI\02. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_Swim.h">
+      <Filter>08. State\01. State_Worm\09. State_Worm_Swim</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Worm.h">
+      <Filter>06. Animator\02. Image\04. Image_Worm\00. Image_Worm</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Worm_Swim.h">
+      <Filter>06. Animator\01. Sprite\13. Sprite_Worm_Swim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Bubble.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\08. Sprite_Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Banana.h">
+      <Filter>02. Obj\05. CObj_Projectile\03. Obj_Projectile_Banana</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Banana.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\01. Image_Banana</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Banana.h">
+      <Filter>07. Weapon\02. Weapon_Banana</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_ChildBanana.h">
+      <Filter>02. Obj\05. CObj_Projectile\03. Obj_Projectile_Banana</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Donkey.h">
+      <Filter>02. Obj\05. CObj_Projectile\04. Obj_Projectile_Donkey</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Donkey.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\02. Image_Donkey</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Donkey.h">
+      <Filter>07. Weapon\03. Weapon_Donkey</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Hmissile.h">
+      <Filter>07. Weapon\04. Weapon_Hmissile</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Hmissile.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\03. Image_Hmissile</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Hmissile.h">
+      <Filter>02. Obj\05. CObj_Projectile\05. Obj_Projectile_Hmissile</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_AirMissile.h">
+      <Filter>02. Obj\05. CObj_Projectile\06. Obj_Projectile_AirMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_AirMissile.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\04. Image_AirMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_AirMissile.h">
+      <Filter>07. Weapon\05. Weapon_AirMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Jet.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\05. Image_Jet</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Baseball.h">
+      <Filter>07. Weapon\06. Weapon_Baseball</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Baseball.h">
+      <Filter>02. Obj\05. CObj_Projectile\07. Obj_Projectile_Baseball</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Basehit.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\09. Sprite_Basehit</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Holy.h">
+      <Filter>02. Obj\05. CObj_Projectile\08. Obj_Projectile_Holy</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Holy.h">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\06. Image_Holy</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Holy.h">
+      <Filter>07. Weapon\07. Weapon_Holy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Star.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\10. Sprite_Star</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Marker.h">
+      <Filter>06. Animator\01. Sprite\07. Effects\11. Sprite_Marker</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Structure.h">
+      <Filter>02. Obj\06. Obj_Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Structure.h">
+      <Filter>06. Animator\02. Image\05. Image_Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Structure.h">
+      <Filter>07. Weapon\08. Weapon_Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Worm_NotTurn.h">
+      <Filter>08. State\01. State_Worm\10. State_Worm_NotTurn</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Sheep.h">
+      <Filter>06. Animator\01. Sprite\14. Sprite_Sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Sheep.h">
+      <Filter>02. Obj\05. CObj_Projectile\09. Obj_Projectile_Sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Sheep.h">
+      <Filter>07. Weapon\09. Weapon_Sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>01. Mgr\14. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Intro.h">
+      <Filter>05. Scene\02. Scene_Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_MainMenu.h">
+      <Filter>05. Scene\03. Scene_MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>10. Button\00. MyButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Single.h">
+      <Filter>10. Button\01. Button_Single</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Multi.h">
+      <Filter>10. Button\02. Button_Multi</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Net.h">
+      <Filter>10. Button\03. Button_Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Options.h">
+      <Filter>10. Button\04. Button_Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Quit.h">
+      <Filter>10. Button\05. Button_Quit</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_Projectile_Meteor.h">
+      <Filter>02. Obj\05. CObj_Projectile\10. Obj_Projectile_Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Meteor.h">
+      <Filter>07. Weapon\10. Weapon_Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Meteor.h">
+      <Filter>06. Animator\01. Sprite\15. Sprite_Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Teleport.h">
+      <Filter>07. Weapon\11. Weapon_Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_TeleportDraw.h">
+      <Filter>06. Animator\01. Sprite\16. Sprite_Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_TeleWork.h">
+      <Filter>06. Animator\01. Sprite\17. Sprite_TeleWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>01. Mgr\08. BmpMgr\00. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>01. Mgr\08. BmpMgr\01. MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="Mover.cpp">
+      <Filter>04. Mover</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>01. Mgr\00. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>01. Mgr\01. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>05. Scene\00. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>01. Mgr\09. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02. Obj\00. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Game.cpp">
+      <Filter>05. Scene\01. Scene_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Worm.cpp">
+      <Filter>02. Obj\01. CObj_Worm</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator_Worm.cpp">
+      <Filter>06. Animator\00. Animator\01. Animator_Worm</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>06. Animator\01. Sprite\00. Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Idle.cpp">
+      <Filter>06. Animator\01. Sprite\01. Sprite_Worm_Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>06. Animator\00. Animator\00. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>01. Mgr\04. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Walk.cpp">
+      <Filter>06. Animator\01. Sprite\02. Sprite_Worm_Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Map.cpp">
+      <Filter>02. Obj\02. CObj_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>01. Mgr\03. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Cloud.cpp">
+      <Filter>02. Obj\03. CObj_Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Cloud.cpp">
+      <Filter>06. Animator\01. Sprite\03. Sprite_Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_BackPraticle.cpp">
+      <Filter>06. Animator\01. Sprite\04. Sprite_BackParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>01. Mgr\10. GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_WindUI.cpp">
+      <Filter>06. Animator\01. Sprite\05. UI\00. WINDUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>07. Weapon\00. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Bazooka.cpp">
+      <Filter>07. Weapon\01. Weapon_Bazooka</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_DrawWeapon.cpp">
+      <Filter>06. Animator\01. Sprite\06. Sprite_DrawWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImage.cpp">
+      <Filter>06. Animator\02. Image\00. MyImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_WeponIdle.cpp">
+      <Filter>06. Animator\02. Image\01. Image_WeaponIdle</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_WeaponAim.cpp">
+      <Filter>06. Animator\02. Image\02. Image_WeaponAim</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\00. Obj_Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Bazooka.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\01. Obj_Projectile_Bazooka</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Bazooka.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\00. Image_Bazooka</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>01. Mgr\11. EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Effect_Circle.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\00. Sprite_Effect_Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Effect_Ellipse.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\01. Sprite_Effect_Ellipse</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Effect_Exhaust.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\02. Sprite_Effect_Exhaust</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Effect_Smoke.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\03. Sprite_Effect_Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Effect_Text.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\04. Sprite_Effect_Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_BackParticle.cpp">
+      <Filter>02. Obj\04. Particle\00. CObj_BackParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_FlameParticle.cpp">
+      <Filter>02. Obj\04. Particle\01. CObj_FlameParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Effect_Flame.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\05. Sprite_Effect_Flame</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMgr.cpp">
+      <Filter>01. Mgr\12. CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Sea.cpp">
+      <Filter>06. Animator\01. Sprite\08. Sprite_Sea</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>08. State\00. State</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm.cpp">
+      <Filter>08. State\01. State_Worm\00. State_Worm</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Idle.cpp">
+      <Filter>08. State\01. State_Worm\01. State_Worm_Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Walk.cpp">
+      <Filter>08. State\01. State_Worm\02. State_Worm_Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Weapon.cpp">
+      <Filter>08. State\01. State_Worm\03. State_Worm_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Jump.cpp">
+      <Filter>08. State\01. State_Worm\04. State_Worm_Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Jump.cpp">
+      <Filter>06. Animator\01. Sprite\09. Sprite_Worm_Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Flying.cpp">
+      <Filter>08. State\01. State_Worm\05. State_Worm_Flying</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Slide.cpp">
+      <Filter>08. State\01. State_Worm\06. State_Worm_Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Slide.cpp">
+      <Filter>06. Animator\01. Sprite\10. Sprite_Worm_Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Worm_Flying.cpp">
+      <Filter>06. Animator\02. Image\04. Image_Worm\01. Image_Worm_Flying</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>01. Mgr\13. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_HpBox.cpp">
+      <Filter>06. Animator\02. Image\06. UI\00. Image_HpBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Font.cpp">
+      <Filter>06. Animator\02. Image\06. UI\01. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_SlideSmoke.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\06. Sprite_SlideSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>09. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_MinusHp.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\07. Sprite_MinusHp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Dead.cpp">
+      <Filter>06. Animator\01. Sprite\12. Sprite_Worm_Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Dead.cpp">
+      <Filter>08. State\01. State_Worm\07. State_Worm_Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_DeadBomb.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\02. Obj_Projectile_DeadBomb</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Winner.cpp">
+      <Filter>08. State\01. State_Worm\08. State_Worm_Winner</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Winner.cpp">
+      <Filter>06. Animator\01. Sprite\11. Sprite_Worm_Winner</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Inventory.cpp">
+      <Filter>06. Animator\02. Image\06. UI\02. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_Swim.cpp">
+      <Filter>08. State\01. State_Worm\09. State_Worm_Swim</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Worm.cpp">
+      <Filter>06. Animator\02. Image\04. Image_Worm\00. Image_Worm</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Worm_Swim.cpp">
+      <Filter>06. Animator\01. Sprite\13. Sprite_Worm_Swim</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Bubble.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\08. Sprite_Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Banana.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\03. Obj_Projectile_Banana</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Banana.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\01. Image_Banana</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Banana.cpp">
+      <Filter>07. Weapon\02. Weapon_Banana</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_ChildBanana.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\03. Obj_Projectile_Banana</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Donkey.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\04. Obj_Projectile_Donkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Donkey.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\02. Image_Donkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Donkey.cpp">
+      <Filter>07. Weapon\03. Weapon_Donkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Hmissile.cpp">
+      <Filter>07. Weapon\04. Weapon_Hmissile</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Hmissile.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\03. Image_Hmissile</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Hmissile.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\05. Obj_Projectile_Hmissile</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_AirMissile.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\06. Obj_Projectile_AirMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_AirMissile.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\04. Image_AirMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_AirMissile.cpp">
+      <Filter>07. Weapon\05. Weapon_AirMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Jet.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\05. Image_Jet</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Baseball.cpp">
+      <Filter>07. Weapon\06. Weapon_Baseball</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Baseball.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\07. Obj_Projectile_Baseball</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Basehit.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\09. Sprite_Basehit</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Holy.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\08. Obj_Projectile_Holy</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Holy.cpp">
+      <Filter>06. Animator\02. Image\03. Image_Projectile\06. Image_Holy</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Holy.cpp">
+      <Filter>07. Weapon\07. Weapon_Holy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Star.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\10. Sprite_Star</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Marker.cpp">
+      <Filter>06. Animator\01. Sprite\07. Effects\11. Sprite_Marker</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Structure.cpp">
+      <Filter>02. Obj\06. Obj_Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Structure.cpp">
+      <Filter>06. Animator\02. Image\05. Image_Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Structure.cpp">
+      <Filter>07. Weapon\08. Weapon_Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Worm_NotTurn.cpp">
+      <Filter>08. State\01. State_Worm\10. State_Worm_NotTurn</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Sheep.cpp">
+      <Filter>06. Animator\01. Sprite\14. Sprite_Sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Sheep.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\09. Obj_Projectile_Sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Sheep.cpp">
+      <Filter>07. Weapon\09. Weapon_Sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>01. Mgr\14. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Intro.cpp">
+      <Filter>05. Scene\02. Scene_Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_MainMenu.cpp">
+      <Filter>05. Scene\03. Scene_MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>10. Button\00. MyButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Single.cpp">
+      <Filter>10. Button\01. Button_Single</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Multi.cpp">
+      <Filter>10. Button\02. Button_Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Net.cpp">
+      <Filter>10. Button\03. Button_Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Options.cpp">
+      <Filter>10. Button\04. Button_Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Quit.cpp">
+      <Filter>10. Button\05. Button_Quit</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_Projectile_Meteor.cpp">
+      <Filter>02. Obj\05. CObj_Projectile\10. Obj_Projectile_Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Meteor.cpp">
+      <Filter>07. Weapon\10. Weapon_Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Meteor.cpp">
+      <Filter>06. Animator\01. Sprite\15. Sprite_Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Teleport.cpp">
+      <Filter>07. Weapon\11. Weapon_Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_TeleportDraw.cpp">
+      <Filter>06. Animator\01. Sprite\16. Sprite_Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_TeleWork.cpp">
+      <Filter>06. Animator\01. Sprite\17. Sprite_TeleWork</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
